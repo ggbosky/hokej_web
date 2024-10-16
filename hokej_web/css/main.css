@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Kurri;
+    src: url(../fonty/KurriIslandCapsItaPERSONAL-Rg\ \(1\).ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonty/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Roboto2;
+    src: url(../fonty/Roboto-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+}
+
+
+/*--------HEADER---------*/
+header{
+    background-color: #dadada;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    font-family: Roboto;
+}
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+            width: 100%;
+            
+        }
+        .container a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            text-wrap: nowrap;
+            color: #202020;
+            padding: 0 26px;
+            font-weight: 600;
+            font-size: px;
+            transition: 0.15s;
+        }
+        
+        /*------NAVBAR-------*/
+        ul{
+            display: flex;
+            
+        }
+        ul li{
+            display: flex;
+            align-items: center;
+        }
+
+        header a:hover:not(.login_btn) {
+            color: #0055e8;
+            text-shadow: 0px 0px 30px rgb(255, 255, 255);
+        }
+        
+        /*------LOGIN-------*/
+        .login{
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            margin-right: 50px;
+        }
+        .login a{
+            padding: 0 15px;
+            background-color: #326acb;
+            border-radius: 25px;
+            color: #e3e3e3;
+        }
+        .login li{
+       
+            display: flex;
+            align-items: center;
+            transition: transform 0.4s;
+        }
+        .login_btn{
+            height: 33px;
+        }
+        .login a:hover{
+            background-color: #2E61BA;
+        }
+        /*------NAZEV-------*/
+        .nazev{
+            display: flex;
+            margin: 0 40px;
+            align-items: center;
+            cursor: pointer;
+            margin-right: auto;
+        }
+        .nazev{
+            color: #000000;
+            text-wrap: nowrap;
+            text-shadow: 0px 0px 20px rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        
+        
+
+        /*--------MAIN--------*/
+
+main{
+
+        }
+        .onas{
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            
+        }
+        .onas h3{
+            font-family: Roboto2;
+        }
+        .onas img{
+            width: 60px;
+            justify-content: center;
+        }
+        .onas p{
+            width: 250px;
+        }
+        .aktuality{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;    
+            justify-content: center; 
+            text-align: center;  
+            height: 30vw;      
+        }
+        
+        .spekulace{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;    
+            justify-content: center; 
+            text-align: center; 
+            height: 30vw;   
+        }
+        .trejdy{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;    
+            justify-content: center; 
+            text-align: center; 
+            height: 30vw;   
+        }
+        .trejdy img{
+            width: 53px;
+        }
+
+    /*--------FOOTER--------*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    background-color: #e8e8e8; 
+    gap: 10px;
+    height: 120px;
+}
+        footer img{
+            width: 100px;
+        }
+        .site{
+            
+        }
+        .site a{
+            
+            text-decoration: none;
+            color: #000000;
+            font-size: 22px;
+            padding: 0 10px;
+        }
+/*
+ header{
+    display: flex;
+    background-color: #222831;
+    height: 100px;
+}
+        header .navbar a{
+            text-decoration: none;
+            color: #fff;
+        }
+        header h1{
+            color: #fff;
+            font-family: Kurri;
+        }
+        .container{
+            display: flex;
+            width: 100%;
+        }
+        
+        .nazev{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            margin-left: 50px;
+            margin-right: 50px;
+            text-wrap: nowrap;
+        }
+        .nazev h1{
+            margin: 0;
+            font-size: 30px;
+        }
+        .navbar{
+            display: flex;
+            width: 100%;
+            margin-right: 50px;
+            align-items: center;
+            justify-content: right;
+            font-family: Roboto;
+            text-wrap: nowrap;
+            gap: 30px;
+        }
+        .navbar a{
+            font-size: 20px;
+        }
+        header .login_btn{
+            display: flex;
+            margin-right: 50px;
+        }
+        button {
+            font-family: Roboto;
+            text-decoration: none;
+            border-radius: 8px;
+            width: 80px;
+            height: 35px;
+            font-size: 20px;
+            border: 1px solid #000;
+        }
+        button a{
+            color: #000;
+            text-decoration: none;
+        }
+        button:hover{
+            transition: 0.3s;
+            background-color: #ac0101;
+        }
+        button a:hover{
+            transition: 0.3s;
+            color: #fff;
+        }
+         */
+        

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Kurri;
+    src: url(../fonty/KurriIslandCapsItaPERSONAL-Rg\ \(1\).ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonty/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Roboto2;
+    src: url(../fonty/Roboto-Regular.ttf);
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;  
+    background: linear-gradient(#3ABEF9, #3572EF);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #c5c5;
+            width: 300px;
+            height: 230px;
+        }
+        h2{
+            color: #000;
+            font-size: 23px;
+            font-family: Roboto2;
+        }
+        div{
+            display: flex;
+        }
+        .login-form {
+            background-color: #f3f3f3;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form input{
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #000;
+        }
+        form input{
+            width: 230px;
+            height: 30px;
+            margin: 5px;
+        }
+        img{
+            width: 25px;
+            
+            border-radius: 5px;
+            padding: 6px;
+            margin: 2px;
+        }
+        .registrace{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        form p{
+            display: flex;
+            font-size: 13px;
+            padding-right: 5px;
+        }
+        .registrace a{
+            font-size: 13px;
+            text-decoration: none;
+            color: #3810eb;
+        }
+        .registrace a:hover{
+            color: #3ABEF9;
+        }
+        .submit{
+            width: 80px;
+            height: 60px;
+            background-color: #b8b8b8;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        .submit:hover{
+            background-color: #919191;
+            transition: 0.3s;
+        }
+        
